@@ -6,6 +6,28 @@ A beautiful, modern e-commerce Flutter application built using the FakeStore API
 ![Provider](https://img.shields.io/badge/State%20Management-Provider-blue)
 ![Material Design 3](https://img.shields.io/badge/UI-Material%20Design%203-purple)
 
+## 📥 Download & Demo
+
+### 📦 APK File
+The ready-to-install APK is included in the repository:
+- **Location**: `app-release.apk` (in root directory)
+- **Size**: ~20-25 MB (optimized)
+- **Ready to install** on any Android device
+
+### 🎥 Video Demo
+A complete walkthrough video of the app is included:
+- **Location**: `screen_record.webm` (in root directory)
+- **Format**: WebM video
+- Shows all features in action
+- Demonstrates:
+  - Product browsing (grid & list view)
+  - Search and category filtering
+  - Dark mode toggle
+  - Smooth animations
+  - Add to cart functionality
+  - Cart management (quantity changes, swipe to delete)
+  - Complete user flow
+
 ## 📱 Features
 
 ### Core Features
@@ -121,13 +143,23 @@ dependencies:
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### Quick Start (For Testing)
+
+**Just want to try the app?**
+1. Download `app-release.apk` from the repository
+2. Transfer to your Android device
+3. Enable "Install from Unknown Sources" in settings
+4. Install and enjoy! 📱
+
+### For Developers
+
+#### Prerequisites
 - Flutter SDK 3.10.7 or higher
 - Dart SDK
 - Android Studio / VS Code
 - Android device or emulator
 
-### Installation
+#### Installation
 
 1. **Clone the repository**
 ```bash
