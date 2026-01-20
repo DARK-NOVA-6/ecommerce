@@ -5,9 +5,11 @@
 *.swp
 .DS_Store
 .atom/
+.build/
 .buildlog/
 .history
 .svn/
+.swiftpm/
 migrate_working_dir/
 
 # IntelliJ related
@@ -25,12 +27,11 @@ migrate_working_dir/
 **/doc/api/
 **/ios/Flutter/.last_build_id
 .dart_tool/
-.flutter-plugins
 .flutter-plugins-dependencies
-.packages
 .pub-cache/
 .pub/
 /build/
+/coverage/
 
 # Symbolication related
 app.*.symbols
@@ -42,14 +43,3 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
-
-# APK files (keep only release APK)
-build/app/outputs/flutter-apk/app-debug.apk
-build/app/outputs/apk/debug/
-build/app/outputs/apk/profile/
-
-# Documentation files (optional - uncomment if you don't want to commit them)
-# DEVELOPER_GUIDE.md
-# SUBMISSION.md
-# QUICK_START.md
-# WHAT_I_BUILT.txt
